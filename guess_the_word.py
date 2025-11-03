@@ -4,7 +4,7 @@
 import random
 import string
 
-# Pick a random word from the list
+# Choose a random word from the word list
 def choose_word(words, rng=None):
     rng = rng or random
     return rng.choice(words)

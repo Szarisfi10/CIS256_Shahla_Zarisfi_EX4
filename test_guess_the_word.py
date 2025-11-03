@@ -1,7 +1,7 @@
 # Shahla Zarisfi
 # CIS256 Fall 2025
 # EX 4
-# # Import random for predictable testing and functions to test
+# Import random for predictable testing and functions to test
 import random
 from guess_the_word import (
     choose_word,
