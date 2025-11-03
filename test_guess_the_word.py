@@ -25,6 +25,8 @@ def test_reveal_letters_correct_guess_reveals_positions():
     assert updated == "a____"
     updated = reveal_letters(secret, updated, "p")
     assert updated == "app__"
+    updated = reveal_letters(secret, updated, "l")
+    assert updated == "appl_"
     updated = reveal_letters(secret, updated, "e")
     assert updated == "apple"
 
